@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hair Mist - Premium Hair Spray</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="icon" href="Logo.jpg" type="image/x-icon">
+</head>
+<body>
+    <!-- Page Loader -->
+    <div class="page-loader">
+        <div class="loader-spinner">
+            <div class="loader-spinner-circle"></div>
+        </div>
+    </div>
+
+    <!-- Header/Navigation -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Hair Mist</h1>
+                <p>Professional Hair Care</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="cart-icon">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="cart-count">0</span>
+                </div>
+            </nav>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <video autoplay muted loop id="hero-video">
+            <source src="background.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+        </video>
+        <div class="container">
+            <div class="hero-content">
+                <h2>Transform Your Hair with Hair Mist</h2>
+                <p>The ultimate hair spray for volume, hold, and shine without the crunch</p>
+                <a href="#products" class="btn">Shop Now</a>
+            </div>
+            <div class="hero-image">
+                <img src="Logo.jpg" alt="Hair Mist Product">
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title">Why Choose Hair Mist</h2>
+            <div class="features-grid">
+                <div class="feature-item">
+                    <i class="fas fa-leaf"></i>
+                    <h3>Natural Ingredients</h3>
+                    <p>Made with 98% natural ingredients for healthier hair</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-lock"></i>
+                    <h3>Strong Hold</h3>
+                    <p>24-hour hold without stiffness or flaking</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-sun"></i>
+                    <h3>UV Protection</h3>
+                    <p>Protects your hair from sun damage</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-wind"></i>
+                    <h3>Humidity Resistant</h3>
+                    <p>Keeps your style perfect in any weather</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <h2 class="section-title">Our Products</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/300x300/f8f1ff?text=Hair+Mist+Original" alt="Hair Mist Original">
+                    <div class="product-card-content">
+                        <h3>Hair Mist Original</h3>
+                        <p class="price">$19.99</p>
+                        <p class="description">Our signature hair spray with medium hold and natural finish</p>
+                        <button class="add-to-cart" data-id="1" data-name="Hair Mist Original" data-price="19.99">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/300x300/f8f1ff?text=Hair+Mist+Strong" alt="Hair Mist Strong Hold">
+                    <div class="product-card-content">
+                        <h3>Hair Mist Strong Hold</h3>
+                        <p class="price">$22.99</p>
+                        <p class="description">Maximum hold for all-day styling without stiffness</p>
+                        <button class="add-to-cart" data-id="2" data-name="Hair Mist Strong Hold" data-price="22.99">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/300x300/f8f1ff?text=Hair+Mist+Volume" alt="Hair Mist Volume Boost">
+                    <div class="product-card-content">
+                        <h3>Hair Mist Volume Boost</h3>
+                        <p class="price">$21.99</p>
+                        <p class="description">Lifts roots and adds body to fine or flat hair</p>
+                        <button class="add-to-cart" data-id="3" data-name="Hair Mist Volume Boost" data-price="21.99">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/300x300/f8f1ff?text=Hair+Mist+Travel" alt="Hair Mist Travel Size">
+                    <div class="product-card-content">
+                        <h3>Travel Size</h3>
+                        <p class="price">$12.99</p>
+                        <p class="description">Perfect for on-the-go touch ups (2.5 oz)</p>
+                        <button class="add-to-cart" data-id="4" data-name="Hair Mist Travel Size" data-price="12.99">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2 class="section-title">What Our Customers Say</h2>
+            <div class="testimonial-slider">
+                <div class="testimonial active">
+                    <p>"Hair Mist is the only hair spray I'll use now. It holds all day but washes out easily and doesn't leave any residue."</p>
+                    <div class="author">
+                        <img src="https://via.placeholder.com/80x80/f8f1ff?text=Sarah" alt="Sarah J.">
+                        <p>Sarah J.<br><span>Professional Stylist</span></p>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <p>"I've tried dozens of hair sprays and this is by far the best. The volume boost version gives me salon-quality hair at home."</p>
+                    <div class="author">
+                        <img src="https://via.placeholder.com/80x80/f8f1ff?text=Michael" alt="Michael T.">
+                        <p>Michael T.<br><span>Long-time Customer</span></p>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <p>"As someone with fine, flat hair, this product has been a game-changer. My style actually lasts all day now!"</p>
+                    <div class="author">
+                        <img src="https://via.placeholder.com/80x80/f8f1ff?text=Jessica" alt="Jessica L.">
+                        <p>Jessica L.<br><span>Beauty Blogger</span></p>
+                    </div>
+                </div>
+                <div class="slider-controls">
+                    <button class="prev"><i class="fas fa-chevron-left"></i></button>
+                    <button class="next"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <h2 class="section-title">Get In Touch</h2>
+                <p>Have questions about our products? Want to become a retailer? Contact us!</p>
+                <form id="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+            <div class="contact-info">
+                <h3>Contact Information</h3>
+                <p><i class="fas fa-envelope"></i> info@hairmist.com</p>
+                <p><i class="fas fa-phone"></i> (555) 123-4567</p>
+                <p><i class="fas fa-map-marker-alt"></i> 123 Beauty Lane, Cosmetictown, CA 90210</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=61574229601526"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-tiktok"></i></a>
+                    <a href="#"><i class="fab fa-pinterest"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-logo">
+                <h2>Hair Mist</h2>
+                <p>Professional Hair Care</p>
+            </div>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-policies">
+                <h3>Policies</h3>
+                <ul>
+                    <li><a href="#">Shipping Policy</a></li>
+                    <li><a href="#">Return Policy</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+            </div>
+            <div class="newsletter">
+                <h3>Subscribe to Our Newsletter</h3>
+                <form id="newsletter-form">
+                    <input type="email" placeholder="Your Email" required>
+                    <button type="submit" class="btn">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2023 Hair Mist. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Shopping Cart Modal -->
+    <div class="cart-modal">
+        <div class="cart-content">
+            <div class="cart-header">
+                <h3>Your Shopping Cart</h3>
+                <span class="close-cart">&times;</span>
+            </div>
+            <div class="cart-items">
+                <!-- Cart items will be added here dynamically -->
+            </div>
+            <div class="cart-total">
+                <p>Total: $<span class="total-amount">0.00</span></p>
+            </div>
+            <button class="checkout-btn">Proceed to Checkout</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
