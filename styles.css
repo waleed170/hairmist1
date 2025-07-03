@@ -360,6 +360,7 @@ nav ul li a:hover::after {
     border: 1px solid rgba(122, 92, 255, 0.15);
     transform: perspective(1000px) rotateY(-10deg);
     transition: all 0.5s ease;
+    opacity: 0.5;
 }
 
 .hero-image:hover img {
